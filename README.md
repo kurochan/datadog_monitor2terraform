@@ -11,6 +11,16 @@ $ bundle install
 ```
 
 ## Usage
+```
+$ ruby ./monitor-import.rb [monitor_name] [monitor_id]
+```
+
+* `monitor_name` is terraform resource id
+* `monitor_id` is written in datadog monitor page url
+  * https://app.datadoghq.com/monitors#112233
+  * `112233` is `monitor_id`
+
+## example
 
 ```bash
 $ export DATADOG_API_KEY='datadogapikeydatadogapikey'
